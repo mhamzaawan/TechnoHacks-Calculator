@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Roboto:wght@300;500&display=swap');
+
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background:  url(bgg.png) no-repeat ;
+    
+}
+.button {
+    padding: 20px;
+    background: white;
+    border: 0px solid white;
+    border-radius: 17%;
+    cursor: pointer;
+    width: 60px;
+    font-weight: bold;
+    
+}
+.button:hover{
+    background-color: rgb(187, 183, 183);
+    transition: 1s ease;
+    opacity: 100%;
+}
+.button p{
+    display: none;
+}
+
+.row {
+    margin: 5px 0;
+    background: none;
+}
+
+.row input {
+    font-size: 26px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid ;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: white;
+    width: 240px;
+    height: 91px;
+}
+.container{
+    background: none;
+    width: 19%;
+}
